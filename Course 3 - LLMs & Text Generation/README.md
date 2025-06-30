@@ -4,7 +4,7 @@
 ## 1.3 Historical Recap
 ## 1.4 [Encoder vs Decoder Models](./nb/1.4.ipynb)
 ## 1.5 [Completion vs Instruction-following Models](./nb/1.5.ipynb)
-## 1.6 Enabling the Data Flywheel
+## 1.6 [Enabling the Data Flywheel](./nb/1.6.ipynb)
 ## 1.7 Language Fluency vs Intelligence
 ## 1.8 LLM Inference and Decoding Parameters
 ## 1.9 Create an OpenAI Account
@@ -13,7 +13,7 @@
 ## 1.12 Demo: Chain of Thought Prompting
 ## 1.13 Open vs Closed Models
 ## 1.14 Anatomy of a Prompt
-## 1.15 Get an OpennAI Key
+## 1.15 Get an OpenAI Key
 ## 1.16 [Exercise: Chatbot Memory](./nb/1.16.ipynb)
 ## 1.17 [Exercise Soln](./nb/1.17.ipynb)
 ## 1.18 Understanding LLM Capabilities and Using your Intuition
