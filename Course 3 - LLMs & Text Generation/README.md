@@ -3,7 +3,7 @@
 ## 1.2 Lesson Overview
 ## 1.3 Historical Recap
 ## 1.4 [Encoder vs Decoder Models](./nb/1.4.ipynb)
-## 1.5 Completion vs Instruction-following Models
+## 1.5 [Completion vs Instruction-following Models](./nb/1.5.ipynb)
 ## 1.6 Enabling the Data Flywheel
 ## 1.7 Language Fluency vs Intelligence
 ## 1.8 LLM Inference and Decoding Parameters
