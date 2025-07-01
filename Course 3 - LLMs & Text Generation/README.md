@@ -8,7 +8,7 @@
 ## 1.7 Language Fluency vs Intelligence
 ## 1.8 [LLM Inference and Decoding Parameters](./nb/1.8.ipynb)
 ## 1.9 Create an OpenAI Account
-## 1.10 Demo: LLM Inference and Next Token Probabilities
+## 1.10 [Demo: LLM Inference and Next Token Probabilities](./nb/1.10.ipynb)
 ## 1.11 What is a Prompt
 ## 1.12 Demo: Chain of Thought Prompting
 ## 1.13 Open vs Closed Models
