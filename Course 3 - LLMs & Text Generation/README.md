@@ -6,7 +6,7 @@
 ## 1.5 [Completion vs Instruction-following Models](./nb/1.5.ipynb)
 ## 1.6 [Enabling the Data Flywheel](./nb/1.6.ipynb)
 ## 1.7 Language Fluency vs Intelligence
-## 1.8 LLM Inference and Decoding Parameters
+## 1.8 [LLM Inference and Decoding Parameters](./nb/1.8.ipynb)
 ## 1.9 Create an OpenAI Account
 ## 1.10 Demo: LLM Inference and Next Token Probabilities
 ## 1.11 What is a Prompt
