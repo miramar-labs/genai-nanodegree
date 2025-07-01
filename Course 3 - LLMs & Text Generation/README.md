@@ -25,8 +25,8 @@
 ## 2.5 Challenges in NLP
 ## 2.6 Quiz: Intro to NLP
 ## 2.7 Recap: Intro to NLP
-## 2.8 Encoding Text Data
-## 2.9 Tokenization Steps
+## 2.8 [Encoding Text Data](./nb/2.8.ipynb)
+## 2.9 [Tokenization Steps](./nb/2.9.ipynb)
 ## 2.10 Encoding and Decoding Text with Huggingface Tokenizers
 ## 2.11 Properties of Huggingface Tokenizers
 ## 2.12 Embeddings
