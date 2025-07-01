@@ -28,7 +28,7 @@
 ## 2.8 [Encoding Text Data](./nb/2.8.ipynb)
 ## 2.9 [Tokenization Steps](./nb/2.9.ipynb)
 ## 2.10 [Encoding and Decoding Text with Huggingface Tokenizers](./nb/2.10.ipynb)
-## 2.11 Properties of Huggingface Tokenizers
+## 2.11 [Properties of Huggingface Tokenizers](./nb/2.11.ipynb)
 ## 2.12 Embeddings
 ## 2.13 [Exercise: Encoding Text Data](./nb/2.13.ipynb)
 ## 2.14 Recap: Encoding Text Data
