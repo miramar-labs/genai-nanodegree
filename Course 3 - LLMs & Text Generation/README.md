@@ -9,10 +9,10 @@
 ## 1.8 [LLM Inference and Decoding Parameters](./nb/1.8.ipynb)
 ## 1.9 Create an OpenAI Account
 ## 1.10 [Demo: LLM Inference and Next Token Probabilities](./nb/1.10.ipynb)
-## 1.11 What is a Prompt
-## 1.12 Demo: Chain of Thought Prompting
+## 1.11 [What is a Prompt](./nb/1.11.ipynb)
+## 1.12 [Demo: Chain of Thought Prompting](./nb/1.12.ipynb)
 ## 1.13 Open vs Closed Models
-## 1.14 Anatomy of a Prompt
+## 1.14 [Anatomy of a Prompt](./nb/1.14.ipynb)
 ## 1.15 Get an OpenAI Key
 ## 1.16 [Exercise: Chatbot Memory](./nb/1.16.ipynb)
 ## 1.17 [Exercise Soln](./nb/1.17.ipynb)
