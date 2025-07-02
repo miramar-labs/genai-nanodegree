@@ -32,7 +32,7 @@
 ## 2.12 [Embeddings](./nb/2.12.ipynb)
 ## 2.13 [Exercise: Encoding Text Data](./nb/2.13.ipynb)
 ## 2.14 Recap: Encoding Text Data
-## 2.15 NLP Models and Handling Sequences 
+## 2.15 [NLP Models and Handling Sequences](./nb/2.15.ipynb)
 ## 2.16 Recurrent Neural Networks (RNNs) 
 ## 2.17 Autoregressive Models
 ## 2.18 Sampling Methods for Tokens
