@@ -34,8 +34,8 @@
 ## 2.14 Recap: Encoding Text Data
 ## 2.15 [NLP Models and Handling Sequences](./nb/2.15.ipynb)
 ## 2.16 [Recurrent Neural Networks (RNNs)](./nb/2.16.ipynb)
-## 2.17 Autoregressive Models
-## 2.18 Sampling Methods for Tokens
+## 2.17 [Autoregressive Models](./nb/2.17.ipynb)
+## 2.18 [Sampling Methods for Tokens](./nb/2.18.ipynb)
 ## 2.19 [Exercise: Text Generation](./nb/2.19.ipynb)
 ## 2.20 Recap: Text Generation
 ## 2.21 Lesson Overview
