@@ -42,8 +42,8 @@
 # 3. Transformers and Attention Mechanism
 ## 3.1 Meet Your Instructors
 ## 3.2 Lesson Overview
-## 3.3 Origin Story: Attention and RNNs
-## 3.4 Attention Scores
+## 3.3 [Origin Story: Attention and RNNs](./nb/3.3.ipynb)
+## 3.4 [Attention Scores](./nb/3.4.ipynb)
 ## 3.5 Self-Attention Deep-Dive
 ## 3.6 Attention Mechanisms
 ## 3.7 Demo: Visualizing Bias in Attention Mechanisms
