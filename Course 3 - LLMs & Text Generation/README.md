@@ -49,7 +49,7 @@
 ## 3.7 [Demo: Visualizing Bias in Attention Mechanisms - BertViz](./nb/3.7.ipynb)
 ## 3.8 [Exercise: Implement Self-Attention in GPT](./nb/3.8.ipynb)
 ## 3.9 [Exercise Soln](./nb/3.9.ipynb)
-## 3.10 Transformers
+## 3.10 [Transformers](./nb/3.10.ipynb)
 ## 3.11 Training Transformer-Based Models
 ## 3.12 [Exercise: Create Your Own GPT Model](./nb/3.12.ipynb)
 ## 3.13 [Exercise Soln](./nb/3.13.ipynb)
