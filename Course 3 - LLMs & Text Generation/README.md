@@ -50,7 +50,7 @@
 ## 3.8 [Exercise: Implement Self-Attention in GPT](./nb/3.8.ipynb)
 ## 3.9 [Exercise Soln](./nb/3.9.ipynb)
 ## 3.10 [Transformers](./nb/3.10.ipynb)
-## 3.11 Training Transformer-Based Models
+## 3.11 [Training Transformer-Based Models](./nb/3.11.ipynb)
 ## 3.12 [Exercise: Create Your Own GPT Model](./nb/3.12.ipynb)
 ## 3.13 [Exercise Soln](./nb/3.13.ipynb)
 ## 3.14 Pros and Cons of Transformers
