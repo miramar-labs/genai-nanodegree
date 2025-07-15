@@ -46,7 +46,7 @@
 ## 3.4 [Attention Scores](./nb/3.4.ipynb)
 ## 3.5 [Self-Attention Deep-Dive](./nb/3.5.ipynb)
 ## 3.6 [Attention Mechanisms](./nb/3.6.ipynb)
-## 3.7 Demo: Visualizing Bias in Attention Mechanisms
+## 3.7 [Demo: Visualizing Bias in Attention Mechanisms - BertViz](./nb/3.7.ipynb)
 ## 3.8 [Exercise: Implement Self-Attention in GPT](./nb/3.8.ipynb)
 ## 3.9 [Exercise Soln](./nb/3.9.ipynb)
 ## 3.10 Transformers
