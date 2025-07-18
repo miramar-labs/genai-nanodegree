@@ -69,9 +69,9 @@
 ## 4.7 [OpenAI Model Responses Without Customization](./nb/4.7.ipynb)
 ## 4.8 [Gathering Data](./nb/4.8.ipynb)
 ## 4.9 Case Study: 2022 Events
-## 4.10 Loading and Wrangling Data
-## 4.11 Review: Numeric Representations for Text Data
-## 4.12 Review: Text Embeddings
+## 4.10 [Loading and Wrangling Data](./nb/4.10.ipynb)
+## 4.11 [Review: Numeric Representations for Text Data](./nb/4.11.ipynb)
+## 4.12 [Review: Text Embeddings](./nb/4.12.ipynb)
 ## 4.13 Creating an Embeddings Index for our Chatbot
 ## 4.14 [Exercise: Loading Data](./nb/4.14.ipynb)
 ## 4.15 Semantic Text Search and Cosine Similarity
