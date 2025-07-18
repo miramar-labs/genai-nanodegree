@@ -72,7 +72,7 @@
 ## 4.10 [Loading and Wrangling Data](./nb/4.10.ipynb)
 ## 4.11 [Review: Numeric Representations for Text Data](./nb/4.11.ipynb)
 ## 4.12 [Review: Text Embeddings](./nb/4.12.ipynb)
-## 4.13 Creating an Embeddings Index for our Chatbot
+## 4.13 [Creating an Embeddings Index for our Chatbot](./nb/4.13.ipynb)
 ## 4.14 [Exercise: Loading Data](./nb/4.14.ipynb)
 ## 4.15 Semantic Text Search and Cosine Similarity
 ## 4.16 Finding Relevant Data Case Study
