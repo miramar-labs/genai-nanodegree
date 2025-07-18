@@ -62,12 +62,12 @@
 # 4. Retrevial Augmented Generation
 ## 4.1 Lesson Overview
 ## 4.2 Review: OpenAI and Prompt Engineering
-## 4.3 Retrieval Augmented Generation Steps
+## 4.3 [Retrieval Augmented Generation Steps](./nb/4.3.ipynb)
 ## 4.4 Getting Started
 ## 4.5 Get an OpenAI Key
-## 4.6 Code-Along Workspace
-## 4.7 OpenAI Model Responses Without Customization
-## 4.8 Gathering Data
+## 4.6 [Code-Along Workspace](./nb/4.6.ipynb)
+## 4.7 [OpenAI Model Responses Without Customization](./nb/4.7.ipynb)
+## 4.8 [Gathering Data](./nb/4.8.ipynb)
 ## 4.9 Case Study: 2022 Events
 ## 4.10 Loading and Wrangling Data
 ## 4.11 Review: Numeric Representations for Text Data
@@ -81,7 +81,7 @@
 ## 4.19 How Much Context to Provide
 ## 4.20 Counting OpenAI Tokens
 ## 4.21 Composing a Custom Text Prompt
-## 4.22 Queryign a Completion Model
+## 4.22 Querying a Completion Model
 ## 4.23 [Exercise: Complete a Query](./nb/4.23.ipynb)
 ## 4.24 Case Study Workspace
 # 5. Build Custom Datasets for LLMs
