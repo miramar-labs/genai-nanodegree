@@ -83,7 +83,7 @@
 ## 4.21 Composing a Custom Text Prompt
 ## 4.22 Querying a Completion Model
 ## 4.23 [Exercise: Complete a Query](./nb/4.23.ipynb)
-## 4.24 Case Study Workspace
+## 4.24 [Case Study Workspace](./nb/4.24.ipynb)
 # 5. Build Custom Datasets for LLMs
 ## 5.1 Meet Your Instructor
 ## 5.2 Lesson Overview
