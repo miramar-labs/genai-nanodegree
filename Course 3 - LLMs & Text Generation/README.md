@@ -74,7 +74,7 @@
 ## 4.12 [Review: Text Embeddings](./nb/4.12.ipynb)
 ## 4.13 [Creating an Embeddings Index for our Chatbot](./nb/4.13.ipynb)
 ## 4.14 [Exercise: Loading Data](./nb/4.14.ipynb)
-## 4.15 Semantic Text Search and Cosine Similarity
+## 4.15 [Semantic Text Search and Cosine Similarity](./nb/4.15.ipynb)
 ## 4.16 Finding Relevant Data Case Study
 ## 4.17 [Exercise: Semantic Text Search](./nb/4.17.ipynb)
 ## 4.18 Providing context in a Custom Prompt
