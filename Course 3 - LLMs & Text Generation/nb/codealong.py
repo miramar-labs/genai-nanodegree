@@ -11,10 +11,24 @@ Original file is located at
 Use this notebook as your "scratch pad" as you go through the course contents. Feel free to copy any example code and tweak it to get a better understanding of how it works!
 
 Use the **+** button or `Insert` menu to add additional code cells as needed.
+"""
 
-## Step 1
+import openai
+import os
+try:
+    from google.colab import userdata
+    api_key = userdata.get('OPENAI_API_KEY')
+    if api_key:
+        os.environ["OPENAI_API_KEY"] = api_key
+except Exception:
+    pass
+assert os.getenv("OPENAI_API_KEY"), "OPENAI_API_KEY is not set"
 
-### Loading the Data with `pandas`
+client = openai.OpenAI()
+
+"""## Step 1
+
+### Loading the 2022 Data with `pandas`
 """
 
 import requests
@@ -73,22 +87,8 @@ df
 """### Creating an Embeddings Index with `openai.Embedding`
 
 Will use the [latest openai SDK](https://platform.openai.com/docs/guides/embeddings/embeddings?lang=python) `OpenAI().embeddings.create()` instead of the legacy `openai.Embedding.create()`
-"""
 
-import openai
-import os
-try:
-    from google.colab import userdata
-    api_key = userdata.get('OPENAI_API_KEY')
-    if api_key:
-        os.environ["OPENAI_API_KEY"] = api_key
-except Exception:
-    pass
-assert os.getenv("OPENAI_API_KEY"), "OPENAI_API_KEY is not set"
-
-client = openai.OpenAI()
-
-"""First we need to decide if/how we are going to chunk up each row of cleaned text in the dataframe. We might want to generate a single embedding for the entire text blob, or one per chunk.
+First we need to decide if/how we are going to chunk up each row of cleaned text in the dataframe. We might want to generate a single embedding for the entire text blob, or one per chunk.
 
 🔍 Rule of Thumb:
 If your use case benefits from semantic detail at a finer level (e.g., search, question-answering, or classification on parts of the text), then chunk it.
@@ -124,7 +124,7 @@ Use fixed-size sliding windows (e.g., 256 or 512 tokens with 20% overlap)
 
 Add metadata: source_id, chunk_id, etc.
 
-Let's try creating one embedding per sentence of row text
+**Let's try creating one embedding per sentence - the following code goes through each row of the original dataframe of paragraphs, breaking them up into individual sentences using a senetence tokenizer. The result is a new dataframe where each row is exactly one sentence. Finally an embedding is generated for each sentence and stored in the 'embedding' column. Notice that OpenAI currently generates embeddings of dimension 1536.**
 """
 
 # Example using sentence splitting and OpenAI embeddings
@@ -134,7 +134,6 @@ import nltk
 import os
 
 # Set NLTK data directory
-#nltk_data_dir = "/usr/local/nltk_data"
 nltk_data_dir = "./nltk_data"
 os.makedirs(nltk_data_dir, exist_ok=True)
 nltk.data.path.append(nltk_data_dir)
@@ -152,15 +151,13 @@ for idx, row in df.iterrows():
     for i, sent in enumerate(sentences):
         chunks.append({"original_id": idx, "chunk_id": i, "text": sent})
 
-chunk_df = pd.DataFrame(chunks)
-
-# Now embed `chunk_df["text"]` in batches
+sentences_df = pd.DataFrame(chunks) # chunk_df is a one sentence per row df
 
 import openai
 import pandas as pd
 import time
 
-# Assume you already have chunk_df with a 'text' column
+# Assume you already have sentences_df with a 'text' column
 # Set your model
 EMBEDDING_MODEL = "text-embedding-3-small"
 
@@ -180,51 +177,122 @@ def get_embeddings_batch(text_list, model=EMBEDDING_MODEL):
 # Run batching
 all_embeddings = []
 
-for i in range(0, len(chunk_df), BATCH_SIZE):
-    batch_texts = chunk_df["text"].iloc[i:i+BATCH_SIZE].tolist()
-    print(f"Embedding batch {i//BATCH_SIZE + 1} of {len(chunk_df)//BATCH_SIZE + 1}...")
+for i in range(0, len(sentences_df), BATCH_SIZE):
+    batch_texts = sentences_df["text"].iloc[i:i+BATCH_SIZE].tolist()
+    print(f"Embedding batch {i//BATCH_SIZE + 1} of {len(sentences_df)//BATCH_SIZE + 1}...")
     batch_embeddings = get_embeddings_batch(batch_texts)
     all_embeddings.extend(batch_embeddings)
 
 # Add to DataFrame
-chunk_df["embedding"] = all_embeddings
+sentences_df["embeddings"] = all_embeddings
+
+sentences_df.to_csv("embeddings.csv")
 
 """## Step 2
 
 ### Finding Relevant Data with Cosine Similarity
 """
 
+def get_embedding_for_userQ(question):
 
+  # Generate the embedding response
+  response = openai.embeddings.create(input=question, model=EMBEDDING_MODEL)
 
+  # Extract the embeddings from the response
+  return response.data[0].embedding
 
+def cosine_similarity(a, b):
+    import numpy as np
+    a, b = np.array(a), np.array(b)
+    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
 
-
+# calculate cosine distances between userQ and each embedding in df, then sort
+def get_rows_sorted_by_relevance(q, df):
+  Qe = get_embedding_for_userQ(q)
+  distances = [1-cosine_similarity(e, Qe) for e in sentences_df["embeddings"]]
+  df["distances"] = distances
+  df.sort_values(by="distances", ascending=True, inplace=True)
+  return df
 
 """## Step 3
 
 ### Tokenizing with `tiktoken`
 """
 
-
-
-
-
-
+import tiktoken
+tokenizer = tiktoken.get_encoding("cl100k_base")
+toks=tokenizer.encode("some text...")
+print(len(toks))
 
 """### Composing a Custom Text Prompt"""
 
+def create_prompt(question, df, max_token_count):
+    """
+    Given a question and a dataframe containing rows of text and their
+    embeddings, return a text prompt to send to a Completion model
+    """
+    # Create a tokenizer that is designed to align with our embeddings
+    tokenizer = tiktoken.get_encoding("cl100k_base")
 
+    # Count the number of tokens in the prompt template and question
+    prompt_template = """
+Answer the question based on the context below, and if the question
+can't be answered based on the context, say "I don't know"
 
+Context:
 
+{}
 
+---
 
+Question: {}
+Answer:"""
+
+    current_token_count = len(tokenizer.encode(prompt_template)) + \
+                            len(tokenizer.encode(question))
+
+    context = []
+    for text in get_rows_sorted_by_relevance(question, df)["text"].values:
+
+        # Increase the counter based on the number of tokens in this row
+        text_token_count = len(tokenizer.encode(text))
+        current_token_count += text_token_count
+
+        # Add the row of text to the list if we haven't exceeded the max
+        if current_token_count <= max_token_count:
+            context.append(text)
+        else:
+            break
+
+    return prompt_template.format("\n\n###\n\n".join(context), question)
 
 """## Step 4
 
 ### Getting a Custom Q&A Response with `openai.Completion`
 """
 
+COMPLETION_MODEL_NAME = "gpt-3.5-turbo-instruct"
 
+def answer_question(question, df, max_prompt_tokens=1800, max_answer_tokens=150):
+  """
+  Given a question, a dataframe containing rows of text, and a maximum
+  number of desired tokens in the prompt and response, return the
+  answer to the question according to an OpenAI Completion model
 
+  If the model produces an error, return an empty string
+  """
 
+  try:
+      prompt = create_prompt(question, df, max_prompt_tokens)
 
+      response = client.completions.create(
+          model=COMPLETION_MODEL_NAME,
+          prompt=prompt,
+          max_tokens=max_answer_tokens
+      )
+      return response.choices[0].text.strip()
+  except Exception as e:
+      print(e)
+      return ""
+
+print(answer_question("Who owns Twitter?", sentences_df));
