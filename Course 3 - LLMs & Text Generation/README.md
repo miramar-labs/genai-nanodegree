@@ -78,8 +78,8 @@
 ## 4.16 Finding Relevant Data Case Study
 ## 4.17 [Exercise: Semantic Text Search](./nb/4.17.ipynb)
 ## 4.18 Providing context in a Custom Prompt
-## 4.19 How Much Context to Provide
-## 4.20 Counting OpenAI Tokens
+## 4.19 [How Much Context to Provide](./nb/4.19.ipynb)
+## 4.20 [Counting OpenAI Tokens](./nb/4.20.ipynb)
 ## 4.21 Composing a Custom Text Prompt
 ## 4.22 Querying a Completion Model
 ## 4.23 [Exercise: Complete a Query](./nb/4.23.ipynb)
