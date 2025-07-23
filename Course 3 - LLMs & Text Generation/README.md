@@ -99,11 +99,11 @@
 ## 5.12 [Review: Language Modelling Tasks](./nb/5.12.ipynb)
 ## 5.13 [Structuring and Storing Raw Data](./nb/5.13.ipynb)
 ## 5.14 Quiz
-## 5.15 Datasets for Causal Language Modelling
-## 5.16 Datasets for Question Answering
+## 5.15 [Datasets for Causal Language Modelling](./nb/5.15.ipynb)
+## 5.16 [Datasets for Question Answering](./nb/5.16.ipynb)
 ## 5.17 [Exercise: Build a Dataset for Question Answering](./nb/5.17.ipynb)
 ## 5.18 [Exercise Soln](./nb/5.18.ipynb)
-## 5.19 Lesson Review
+## 5.19 [Lesson Review](./nb/5.19.ipynb)
 # 6. PROJECT: Build Your Own Custom Chatbot
 ## 6.1 Project Overview
 ## 6.2 Instructions
