@@ -88,9 +88,9 @@
 ## 5.1 Meet Your Instructor
 ## 5.2 Lesson Overview
 ## 5.3 Collecting Data
-## 5.4 Basic Web Scraping
+## 5.4 [Basic Web Scraping](./nb/5.4.ipynb)
 ## 5.5 Quiz
-## 5.6 Advanced Web Scraping
+## 5.6 [Advanced Web Scraping](./nb/5.6.ipynb)
 ## 5.7 [Exercise: Collect Data](./nb/5.7.ipynb)
 ## 5.8 [Exercise Soln](./nb/5.8.ipynb)
 ## 5.9 Evaluating Data Quality
