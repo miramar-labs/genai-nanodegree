@@ -93,11 +93,11 @@
 ## 5.6 [Advanced Web Scraping](./nb/5.6.ipynb)
 ## 5.7 [Exercise: Collect Data](./nb/5.7.ipynb)
 ## 5.8 [Exercise Soln](./nb/5.8.ipynb)
-## 5.9 Evaluating Data Quality
-## 5.10 A Simple Data Cleaning Example
+## 5.9 [Evaluating Data Quality](./nb/5.9.ipynb)
+## 5.10 [A Simple Data Cleaning Example](./nb/5.10.ipynb)
 ## 5.11 Quiz
-## 5.12 Review: Language Modelling Tasks
-## 5.13 Structuring and Storing Raw Data
+## 5.12 [Review: Language Modelling Tasks](./nb/5.12.ipynb)
+## 5.13 [Structuring and Storing Raw Data](./nb/5.13.ipynb)
 ## 5.14 Quiz
 ## 5.15 Datasets for Causal Language Modelling
 ## 5.16 Datasets for Question Answering
