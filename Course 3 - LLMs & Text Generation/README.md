@@ -107,4 +107,4 @@
 # 6. PROJECT: Build Your Own Custom Chatbot
 ## 6.1 Project Overview
 ## 6.2 Instructions
-## 6.3 Project Soln/Submission 
+## 6.3 Project Soln/Submission[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/miramar-labs/genai-nanodegree/blob/main/Course%203%20-%20LLMs%20%26%20Text%20Generation/nb/PROJECT-create_your_own_chatbot.ipynb)
