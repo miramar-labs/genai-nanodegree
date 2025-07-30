@@ -13,7 +13,7 @@
 ## 1.12 Fith Stage" "magic" Words
 ## 1.13 Sixth Stage: Parameters
 ## 1.14 Bonus Stage: Inpaint
-## 1.15 Exercise Workspace
+## 1.15 [Exercise Workspace](./nb/1.15.ipynb)
 ## 1.16 Additional Resources
 ## 1.18 Quiz
 # 2. Computer Vision Fundamentals
