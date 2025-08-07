@@ -72,14 +72,16 @@
 ## 5.4 Latent Diffusion Models
 ## 5.5 Diffusion Models: Pros and Cons
 ## 5.6 Quiz
-## 5.7 DDPM Implementation in Theory
-## 5.8 DDPM Implementation in Coding
-## 5.9 Inference
-## 5.10 Exercise: Build a DDPM
-## 5.11 Exercise Soln
+## 5.7 [DDPM Implementation in Theory](./nb/5.7.ipynb)
+## 5.8 [DDPM Implementation in Coding](./nb/5.8.ipynb)
+## 5.9 [Inference](./nb/5.9.ipynb)
+## 5.10 [Exercise: Build a DDPM](./nb/5.10.ipynb)
+## 5.11 [Exercise Soln](./nb/5.11.ipynb)
 ## 5.12 Demo: Huggingface Diffusers
 ## 5.13 Playground
 # 6. PROJECT: AI Photo Editing with Inpainting
 ## 6.1 Project Overview
 ## 6.2 Instructions
+## 6.3 Environments
+## 6.4 [Workspace](./nb/6.4.ipynb)
 ## 6.3 Project Soln/Submission 
