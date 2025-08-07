@@ -77,8 +77,8 @@
 ## 5.9 [Inference](./nb/5.9.ipynb)
 ## 5.10 [Exercise: Build a DDPM](./nb/5.10.ipynb)
 ## 5.11 [Exercise Soln](./nb/5.11.ipynb)
-## 5.12 Demo: Huggingface Diffusers
-## 5.13 Playground
+## 5.12 [Demo: Huggingface Diffusers](./nb/5.12.ipynb)
+## 5.13 [Playground](./nb/5.13.ipynb)
 # 6. PROJECT: AI Photo Editing with Inpainting
 ## 6.1 Project Overview
 ## 6.2 Instructions
