@@ -30,8 +30,8 @@
 ## 2.11 Quiz
 ## 2.12 Foundation Models
 ## 2.13 Demo
-## 2.14 Exercise: Face Recognition with Eigenfaces and DLIB
-## 2.15 Exercise Soln
+## 2.14 [Exercise: Face Recognition with Eigenfaces and DLIB](./nb/2.14.ipynb)
+## 2.15 [Exercise Soln](./nb/2.15.ipynb)
 ## 2.16 Lesson Review
 # 3. Image Generation and GANs
 ## 3.1 Image Generation and GANs
@@ -42,14 +42,14 @@
 ## 3.6 Discriminator Training
 ## 3.7 Quiz
 ## 3.8 Generator Training and Inference
-## 3.9 Quiz
-## 3.10 Exercise: Training GAN
-## 3.11 Exercise Soln
+## 3.9 Quiz 
+## 3.10 [Exercise: Training GAN](./nb/3/10.ipynb)
+## 3.11 [Exercise Soln](./nb/3.11.ipynb)
 ## 3.12 GANs Are Tricky To Train
 ## 3.13 GANs: Pros and Cons
 ## 3.14 Quiz
-## 3.15 Exercise: Style GAN
-## 3.16 Exercise Soln
+## 3.15 [Exercise: Style GAN](./nb/3.15.ipynb)
+## 3.16 [Exercise Soln](./nb/3.16.ipynb)
 # 4. Transformer-Based Computer Vision Models
 ## 4.1 Lesson Introduction
 ## 4.2 Vision Tranformers (ViT)
@@ -62,8 +62,8 @@
 ## 4.9 DALL-E for Image Generation
 ## 4.10 DINOv2
 ## 4.11 SAM
-## 4.12 Exercise: SAM
-## 4.13 Exercise Soln
+## 4.12 [Exercise: SAM](./nb/4.12.ipynb)
+## 4.13 [Exercise Soln](./nb/4.13s.ipynb)
 ## 4.14 Lesson Review
 # 5. Diffusion Models
 ## 5.1 Diffusion Models
