@@ -84,4 +84,4 @@
 ## 6.2 Instructions
 ## 6.3 Environments
 ## 6.4 [Workspace](./nb/6.4.ipynb)
-## 6.3 Project Soln/Submission 
+## 6.3 [Project Soln/Submission](./nb/6.3s1.ipynb) 
