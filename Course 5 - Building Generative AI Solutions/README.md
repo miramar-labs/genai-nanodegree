@@ -7,16 +7,16 @@
 ## 1.6 Prompts and Prompt Engineering
 ## 1.7 GenAI Features and Solutions
 ## 1.8 Get OpenAI Key
-## 1.9 Exercise: Designing GenAI Features with Prompt Templates
-## 1.10 Exercise Soln
+## 1.9 [Exercise: Designing GenAI Features with Prompt Templates](./nb/1.9.ipynb)
+## 1.10 [Exercise Soln](./nb/1.10.ipynb)
 ## 1.11 GenAI Solution Components
-## 1.12 Feature: Generating Social Media Posts
-## 1.13 Your First Quest: Building a Health Wellness Agent
+## 1.12 [Feature: Generating Social Media Posts](./nb/1.12.ipynb)
+## 1.13 [Your First Quest: Building a Health Wellness Agent](./nb/1.13.ipynb)
 ## 1.14 Exercise: Building an Agent
 ## 1.15 Exercise Soln
 ## 1.16 Designing a Priject Management Assistant Solution
 ## 1.17 GPT Function Calling
-## 1.18 Demo: GPT Function Calling
+## 1.18 [Demo: GPT Function Calling](./nb/1.18.ipynb)
 ## 1.19 Exercise: Build an Assistant Solution
 ## 1.20 Exercise Soln
 ## 1.21 Craft an Interactive UI
