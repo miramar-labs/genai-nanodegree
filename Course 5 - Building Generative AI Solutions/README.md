@@ -17,28 +17,28 @@
 ## 1.16 Designing a Priject Management Assistant Solution
 ## 1.17 GPT Function Calling
 ## 1.18 [Demo: GPT Function Calling](./nb/1.18.ipynb)
-## 1.19 Exercise: Build an Assistant Solution
-## 1.20 Exercise Soln
+## 1.19 [Exercise: Build an Assistant Solution](./nb/1.19.ipynb)
+## 1.20 [Exercise Soln](./nb/1.20.ipynb)
 ## 1.21 Craft an Interactive UI
 # 2. Building Solutions With Vector Databases
-## 2.1 Introduction to Vector Databases
+## 2.1 [Introduction to Vector Databases](./nb/2.1.ipynb)
 ## 2.2 Prerequisites and Environment
 ## 2.3 Get OpenAI Key
 ## 2.4 Vector Search Basics
-## 2.5 Exercise: Basic Vector Search
-## 2.6 Exercise Soln
+## 2.5 [Exercise: Basic Vector Search](./nb/2.5.ipynb)
+## 2.6 [Exercise Soln](./nb/2.6.ipynb)
 ## 2.7 Embeddings
-## 2.8 Exercise: Embedding Functions
-## 2.9 Exercise Soln
+## 2.8 [Exercise: Embedding Functions](./nb/2.8.ipynb)
+## 2.9 [Exercise Soln](./nb/2.9.ipynb)
 ## 2.10 Vector Databases
-## 2.11 Exercise: Vector Databases
-## 2.12 Exercise Soln
+## 2.11 [Exercise: Vector Databases](./nb/2.11.ipynb)
+## 2.12 [Exercise Soln](./nb/2.12.ipynb)
 ## 2.13 Advanced Vector Operations
-## 2.14 Exercise: Simple Recommender
-## 2.15 Exercise Soln
-## 2.16 Exercise: Multimodal Search
-## 2.17 Exercise Soln
-## 2.18 Advanced Bonus: Build an AI Chstbot
+## 2.14 [Exercise: Simple Recommender](./nb/2.14.ipynb)
+## 2.15 [Exercise Soln](./nb/2.15.ipynb)
+## 2.16 [Exercise: Multimodal Search](./nb/2.16.ipynb)
+## 2.17 [Exercise Soln](./nb/2.17.ipynb)
+## 2.18 Advanced Bonus: Build an AI Chatbot
 # 3. Developing Generative AI Solutions With LangChain
 ## 3.1 Welcome to Developing Generative AI Solutions With LangChain
 ## 3.2 Prerequisites and Environment
