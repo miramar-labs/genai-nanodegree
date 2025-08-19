@@ -46,24 +46,24 @@
 ## 3.4 Programming with LLMs
 ## 3.5 Using Prompt Templates
 ## 3.6 Get OpenAI Key
-## 3.7 Exercise: Implement Chain-of-Thought Pattern
-## 3.8 Exercise Soln
+## 3.7 [Exercise: Implement Chain-of-Thought Pattern](./nb/3.7e.ipynb)
+## 3.8 [Exercise Soln](./nb/3.8s.ipynb)
 ## 3.9 Chains
-## 3.10 Demo: LLM Chain
+## 3.10 [Demo: LLM Chain](./nb/3.10.ipynb)
 ## 3.11 A Use-Case for Sentiment Analysis
 ## 3.12 Document Loaders
 ## 3.13 Output Parsers
-## 3.14 Exercise: Generate a Sentiment Analysis
-## 3.15 Exercise Soln
-## 3.16 Retrieval Augmented Generation (RAG)
-## 3.17 Vector Stores, Embeddings and Retrievers
-## 3.18 Exercise: Semantic Search Using RAG
-## 3.19 Exercise Soln
+## 3.14 [Exercise: Generate a Sentiment Analysis](./nb/3.14e.ipynb)
+## 3.15 [Exercise Soln](./nb/3.15s.ipynb)
+## 3.16 [Retrieval Augmented Generation (RAG)](./nb/3.16.ipynb)
+## 3.17 [Vector Stores, Embeddings and Retrievers](./nb/3.17.ipynb)
+## 3.18 [Exercise: Semantic Search Using RAG](./nb/3.18.ipynb)
+## 3.19 [Exercise Soln](./nb/3.19.ipynb)
 ## 3.20 Memory
-## 3.21 Memory in Chains
-## 3.22 Examples of Chains
-## 3.23 Exercise: Chains with Real-Time Data
-## 3.24 Exercise Soln
+## 3.21 [Memory in Chains](./nb/3.21.ipynb)
+## 3.22 [Examples of Chains](./nb/3.22.ipynb)
+## 3.23 [Exercise: Chains with Real-Time Data](./nb/3.23.ipynb)
+## 3.24 [Exercise Soln](./nb/3.24.ipynb)
 # 4. PROJECT: Personalized Real Estate Agent
 ## 4.1 Project Overview
 ## 4.2 Instructions
