@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "neighborhood": "Cherry Creek",
+    "price": 850000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "house_size": 2800,
+    "description": "This stunning 4-bedroom home features an open floor plan with a modern kitchen, hardwood floors, and a spacious master suite. The backyard is perfect for entertaining with its large deck and beautifully landscaped garden. The home also includes an attached garage and finished basement.",
+    "neighborhood_description": "Cherry Creek is an upscale neighborhood located in the heart of Denver. It is known for its top-rated schools, abundance of shopping and dining options, and its close proximity to downtown. With its tree-lined streets and well-kept homes, Cherry Creek offers a perfect blend of urban convenience and suburban tranquility."
+  },
+  {
+    "id": 2,
+    "neighborhood": "Maple Heights",
+    "price": 850000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "house_size": 3500,
+    "description": "Elegant and spacious Victorian-style home nestled in the serene suburb of Maple Heights. This property boasts a charming wrap-around porch, grand entryway, and detailed craftsmanship throughout. The open-concept kitchen features high-end appliances and a large island. The master suite includes a walk-in closet and a luxurious bathroom with a soaking tub and separate shower. A beautiful, landscaped yard and two-car garage complete this property.",
+    "neighborhood_description": "Maple Heights is a family-friendly suburb with top-rated schools and parks. It's known for its tight-knit community and annual neighborhood events. Amenities such as grocery stores, restaurants, and shopping centers are within a short drive."
+  },
+  {
+    "id": 3,
+    "neighborhood": "Lakeview Heights",
+    "price": 879000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "house_size": 2700,
+    "description": "Stunning 4-bedroom, 3-bathroom home in the heart of Lakeview Heights. This property offers 2,700 sqft of living space and a lot size of 0.5 acres. Your family and loved ones will enjoy the spacious backyard, perfect for family gatherings! Features include hardwood flooring, a modern kitchen with high-end appliances, a two-car garage, a large master suite with a walk-in closet, and a cozy fireplace in the living room. The home also has a beautiful deck for summer entertaining.",
+    "neighborhood_description": "Lakeview Heights is a peaceful suburban neighborhood known for its highly-rated schools, lush parks, and vibrant community lifestyle. It's located just a short drive from downtown, offering the best of both worlds. Enjoy the tranquility of suburban living with the convenience of city amenities nearby. Local amenities include a community center, local farmers market, and a variety of cafes and shops."
+  },
+  {
+    "id": 4,
+    "neighborhood": "Elmwood Park",
+    "price": 850000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "house_size": 3200,
+    "description": "This elegant, spacious 4-bedroom, 3-bathroom home combines classic architecture with modern amenities. It features a large, open-concept kitchen with granite countertops and high-end appliances, a cozy living area with a wood-burning fireplace, and a master suite with a walk-in closet and en-suite bathroom. Outside, the property boasts a beautifully landscaped garden and a private, fenced-in yard perfect for entertaining. The property is located in the desirable Elmwood Park neighborhood, known for its charming, tree-lined streets and close-knit community.",
+    "neighborhood_description": "Elmwood Park is a friendly, suburban neighborhood that offers a variety of amenities, including top-rated schools, parks, and a lively downtown area with shops, restaurants, and entertainment venues. The neighborhood is conveniently located just a short drive from the city center, making it an ideal location for those who want the peace and tranquility of suburban living without sacrificing the conveniences of city life."
+  },
+  {
+    "id": 5,
+    "neighborhood": "Briarwood Hills",
+    "price": 750000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "house_size": 2800,
+    "description": "This charming colonial house features a spacious layout with hardwood floors, a grand staircase, and high ceilings. The updated kitchen boasts granite countertops and stainless steel appliances. The master suite offers a luxurious bathroom with a soaking tub and walk-in shower. A large backyard with a patio area and well-maintained landscaping makes this home perfect for outdoor entertaining. The house also includes a two-car garage and finished basement.",
+    "neighborhood_description": "Briarwood Hills is a quiet suburban neighborhood, known for its family-friendly atmosphere and excellent school district. It's within walking distance to parks, restaurants, and shopping centers, and has easy access to public transportation."
+  },
+  {
+    "id": 6,
+    "neighborhood": "Pine Acres",
+    "price": 750000,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "house_size": 2500,
+    "description": "Charming colonial-style home nestled in the serene Pine Acres neighborhood. This spacious 4-bedroom, 2-bathroom home boasts a large, landscaped yard, a cozy fireplace, and a modern, fully equipped kitchen. The master suite includes a walk-in closet and an en-suite bathroom. The house also features a two-car garage and a finished basement perfect for a home office or gym.",
+    "neighborhood_description": "Pine Acres is a suburban neighborhood known for its excellent school district, friendly community, and easy access to local amenities. The area is perfect for families and those looking for a quiet place to settle down. It's located just a short drive from a variety of restaurants, shopping centers, and parks."
+  },
+  {
+    "id": 7,
+    "neighborhood": "Blossom Valley",
+    "price": 895000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "house_size": 2450,
+    "description": "A stunning blend of modern and traditional design, this spacious 4 bedrooms, 3 bathrooms home is located in the heart of Blossom Valley. The property boasts an open floor plan, vaulted ceilings, and a gourmet kitchen with granite countertops. The master suite features a walk-in closet and a luxurious ensuite bathroom. A beautifully landscaped backyard with a deck provides a perfect setting for outdoor entertaining.",
+    "neighborhood_description": "Blossom Valley is a vibrant suburban neighborhood known for its excellent schools, family-friendly environment, and easy access to shopping centers. The area also offers plenty of outdoor amenities, including parks, hiking trails, and golf courses."
+  },
+  {
+    "id": 8,
+    "neighborhood": "Magnolia Springs",
+    "price": 755000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "house_size": 2800,
+    "description": "This stunning colonial-style home is located in the heart of Magnolia Springs. It features a beautifully renovated kitchen, a spacious master suite with a walk-in closet, and a large backyard with a pool. The house neatly combines modern amenities with classic charm, boasting hardwood floors, a wood-burning fireplace, and custom built-ins.",
+    "neighborhood_description": "Magnolia Springs is a vibrant suburban neighborhood known for its family-friendly atmosphere. The neighborhood features a variety of local shops, restaurants, and parks. It's within the top-rated school district, making it a great place for families. The community is also known for its active neighborhood association, which organizes annual events and maintains communal spaces."
+  },
+  {
+    "id": 9,
+    "neighborhood": "Maplewood Suburb",
+    "price": 750000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "house_size": 2800,
+    "description": "This beautiful craftsman style home is nestled in the serene Maplewood suburb. The house features hardwood floors, a large gourmet kitchen with granite countertops, and a cozy stone fireplace in the living area. The master suite has a large walk-in closet and a spacious bathroom with a Jacuzzi tub. The backyard includes a large wooden deck and a well-maintained garden, perfect for outdoor gatherings.",
+    "neighborhood_description": "Maplewood is a quiet, family-friendly suburb with top-rated schools, parks, and a variety of shops and restaurants. It's a perfect place for families looking for a peaceful environment while still being close to the city."
+  },
+  {
+    "id": 10,
+    "neighborhood": "Beverly Hills",
+    "price": 1950000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "house_size": 3500,
+    "description": "This luxurious 4-bedroom, 3-bathroom home is nestled in the heart of Beverly Hills. Featuring a modern architectural style with high ceilings, a chef's kitchen equipped with top-of-the-line appliances, and a spacious master suite with a walk-in closet. The outdoor space includes a beautifully landscaped garden and a private pool, ideal for entertaining or simply relaxing.",
+    "neighborhood_description": "Beverly Hills is known for its exclusive luxury homes, upscale shopping, and top-rated schools. It's a short drive to the beach, downtown LA, and the Hollywood Hills. The area boasts numerous high-end dining options, art galleries, and entertainment venues."
+  },
+  {
+    "id": 11,
+    "neighborhood": "Emerald Heights",
+    "price": 900000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "house_size": 2200,
+    "description": "This beautifully designed mid-century modern home boasts an open floor plan with high ceilings, expansive windows that allow for plenty of natural light, and a spacious kitchen with stainless steel appliances and granite countertops. The home also includes a cozy fireplace in the living room, hardwood floors throughout, and a large master suite with a walk-in closet. The property is surrounded by mature trees providing a private and peaceful setting.",
+    "neighborhood_description": "Emerald Heights is a vibrant and walkable urban neighborhood with a diverse mix of restaurants, boutiques, and art galleries. It offers a unique blend of urban living with a small-town feel. The neighborhood is also home to several parks, excellent schools and is conveniently located near public transportation."
+  },
+  {
+    "id": 12,
+    "neighborhood": "Sunnydale Suburbs",
+    "price": 525000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "house_size": 2200,
+    "description": "Charming suburban home with an English cottage style. The house features a beautiful landscaped garden, hardwood floors, a modern kitchen with stainless steel appliances, and a cozy fireplace in the living room. The spacious master suite has a walk-in closet and a luxurious bathroom with a soaking tub and separate shower. There's also a bonus room perfect for a home office or playroom. Outside, there's a large deck for outdoor entertaining and a two-car garage.",
+    "neighborhood_description": "Sunnydale Suburbs is a friendly, family-oriented neighborhood with a great school district. The area boasts several parks, a community pool, and a shopping center within walking distance. It's a peaceful location with easy access to the city."
+  }
+]

@@ -8,3 +8,5 @@ Udacity Generative AI Nanodegree - Course Work and Notes
 
 ### AI Photo Editing with Inpainting [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/miramar-labs/genai-nanodegree/blob/main/Course%204%20-%20Computer%20Vision%20and%20Generative%20AI/nb/PROJECT-AI_Photo_Editing_with_Inpainting.ipynb)
 
+### Personalized Real Estate Agent [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/miramar-labs/genai-nanodegree/blob/main/Course%205%20-%20Building%20Generative%20AI%20Solutions/nb/homematch/HomeMatch.ipynb)
+
